@@ -13,4 +13,10 @@ public class SampleController {
     public String[] doA() {
         return new String[]{"AAA","BBB","CCC"};
     }
+
+
+    @GetMapping("/doB")
+    public String[] doB() {
+        return new String[]{"AAA","BBB","CCC"};
+    }
 }
